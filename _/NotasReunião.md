@@ -72,7 +72,7 @@ As var HR_... indicam um maior pedidos de restaurantes chains às 11, 12, 18, 19
 CUI_Chicken Dishes e noodles talvez seja o tipo de restaurante onde é mais comum mandar vir chain CUI_Asian,CUI_American CUI_Street Food / Snacks,CUI_Italian,CUI_OTHER,CUI_Japanese, CUI_Beverages, CUI_Indian
 
 
-##### age
+##### age [Relevante? 🟡]
 
 Dos 12778 consumidores que caem no filtro (percent_chain = 1), mais de 6000 (47.4%) tem idades entre os 21 e os 27
 Idade média: 27.45
