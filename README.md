@@ -13,3 +13,26 @@ Work developed in the Data Mining project of the Master's in Data Science and Ad
   - Umeima Mahomed, 20240543
   
 <br>
+
+## Notebooks
+
+- [**EDA**](./DM2425_Part1_37.ipynb)
+- **2nd Part**
+  - [Data Preprocessing](./DM2425_Part2_37_01.ipynb)
+    - (Repetir age_groups)
+    - Outliers - Detetar e Tratar
+    - Missing Values - Tratar
+    - Scaling - **StandardScaler**
+    - Encoding - **OneHotEncoder**
+    - Refazer EDA (Simples)
+    - PCA + Criar novas features + Eliminar as features originais
+    - Correlation Matrix - Ver se há features redundantes 
+    - Feature Selection
+    - (Escolher variáveis p/ diferentes perspetivas)
+    - ... Save the data -> **`data_preprocessed.csv`** (Will be used in clustering notebooks)
+  - [Hierarchical Clustering](./DM2425_Part2_37_02.ipynb)
+  - [K-Means Clustering](./DM2425_Part2_37_03.ipynb)
+  - [SOM - Self Organizing Maps](./DM2425_Part2_37_04.ipynb)
+  - [MiniSOM](./DM2425_Part2_37_05.ipynb)
+  - [Density Clustering](./DM2425_Part2_37_06.ipynb)
+  - [Cluster Analysis](./DM2425_Part2_37_07.ipynb)
