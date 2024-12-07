@@ -14,7 +14,7 @@ Work developed in the Data Mining project of the Master's in Data Science and Ad
   
 <br>
 
-## Notebooks
+## **Notebooks Structure**
 
 - [**EDA**](./DM2425_Part1_37.ipynb)
 - **2nd Part**
