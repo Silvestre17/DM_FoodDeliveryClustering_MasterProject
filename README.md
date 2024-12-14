@@ -32,6 +32,6 @@ Work developed in the Data Mining project of the Master's in Data Science and Ad
     - ... Save the data -> **`data_preprocessed.csv`** (Will be used in clustering notebooks)
   - [Hierarchical Clustering](./DM2425_Part2_37_02.ipynb)
   - [K-Means Clustering](./DM2425_Part2_37_03.ipynb)
-  - [SOM - Self Organizing Maps + MiniSOM](./DM2425_Part2_37_04.ipynb)
+  - [SOM - Self Organizing Maps (MiniSOM)](./DM2425_Part2_37_04.ipynb)
   - [Density Clustering](./DM2425_Part2_37_05.ipynb)
   - [Cluster Analysis](./DM2425_Part2_37_06.ipynb)
