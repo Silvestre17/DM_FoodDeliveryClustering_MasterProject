@@ -25,9 +25,8 @@ Work developed in the Data Mining project of the Master's in Data Science and Ad
     - Scaling - **StandardScaler**
     - Encoding - **OneHotEncoder**
     - Refazer EDA (Simples)
-    - PCA + Criar novas features + Eliminar as features originais
+    - PCA + Criar novas features
     - Correlation Matrix - Ver se há features redundantes 
-    - Feature Selection
     - (Escolher variáveis p/ diferentes perspetivas)
     - ... Save the data -> **`data_preprocessed.csv`** (Will be used in clustering notebooks)
   - [Hierarchical Clustering](./DM2425_Part2_37_02.ipynb)
