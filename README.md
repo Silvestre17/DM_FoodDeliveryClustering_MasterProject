@@ -14,7 +14,7 @@ Work developed in the Data Mining project of the Master's in Data Science and Ad
   
 <br>
 
-## Notebooks
+## **Notebooks Structure**
 
 - [**EDA**](./DM2425_Part1_37.ipynb)
 - **2nd Part**
@@ -25,14 +25,12 @@ Work developed in the Data Mining project of the Master's in Data Science and Ad
     - Scaling - **StandardScaler**
     - Encoding - **OneHotEncoder**
     - Refazer EDA (Simples)
-    - PCA + Criar novas features + Eliminar as features originais
+    - PCA + Criar novas features
     - Correlation Matrix - Ver se há features redundantes 
-    - Feature Selection
     - (Escolher variáveis p/ diferentes perspetivas)
     - ... Save the data -> **`data_preprocessed.csv`** (Will be used in clustering notebooks)
   - [Hierarchical Clustering](./DM2425_Part2_37_02.ipynb)
   - [K-Means Clustering](./DM2425_Part2_37_03.ipynb)
-  - [SOM - Self Organizing Maps](./DM2425_Part2_37_04.ipynb)
-  - [MiniSOM](./DM2425_Part2_37_05.ipynb)
-  - [Density Clustering](./DM2425_Part2_37_06.ipynb)
-  - [Cluster Analysis](./DM2425_Part2_37_07.ipynb)
+  - [SOM - Self Organizing Maps (MiniSOM)](./DM2425_Part2_37_04.ipynb)
+  - [Density Clustering](./DM2425_Part2_37_05.ipynb)
+  - [Cluster Analysis](./DM2425_Part2_37_06.ipynb)
