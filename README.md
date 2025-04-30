@@ -94,6 +94,7 @@ The project strictly followed the **CRISP-DM (Cross-Industry Standard Process fo
     *   **Profiling:** Characterized the final 5 clusters using descriptive statistics, bar plots, and heatmaps.
     *   **Business Applications:** Defined marketing strategies tailored to each segment.
     *   **(Optional) Interactive Dashboard:** Developed a web application using Streamlit and Plotly for dynamic exploration of EDA and segmentation results. [Access the App Here!](https://dm-project-abcdeats-group37.streamlit.app/)
+         * ➡️ **Dashboard App Repository:** [Silvestre17/DM_Dashboard](https://github.com/Silvestre17/DM_Dashboard_Group37) ⬅️
 
     <p align="center">
       <a href="https://www.streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" /></a>
