@@ -1,0 +1,36 @@
+_/
+_Backups/
+
+# Created by .ignore support plugin (hsz.mobi)
+# Source: https://gist.github.com/MOOOWOOO/3cf91616c9f3bbc3d1339adfc707b08a
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+**/*zip
+**/*html
+**/*pkl
+
+# virtualenv
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# idea folder, uncomment if you don't need it
+.idea/
+DM_LiteratureReview.xlsx
+DM_2425_Part2_37_3.1.2025.pdf
+(Optional) Bonus Project _ NOVA IMS Moodle.pdf
+DM_2425_Part2_37_Print.pdf
+DM2425 Discussions Schedule_Updated.pdf
+DM2425 Discussions Schedule.pdf
+LiteratureReview_CustomerSegmentationofFoodDeliveryService_.pdf
+(Optional) Bonus Project CODE_ NOVA IMS Moodle.pdf
+Final Project Submission _ NOVA IMS Moodle.pdf
+DMProjectFlowchart.drawio
+Screenshot_3.png
+Screenshot_5.png
+Screenshot_4.png
