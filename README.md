@@ -1,3 +1,9 @@
+<p align="center">
+   <a href="https://dm-project-abcdeats-group37.streamlit.app/">
+        <img src="https://github.com/Silvestre17/DM_Dashboard_Group37/blob/main/static/ABCDEats_Banner.png" alt="ABCDEats Banner" width="800">
+    </a>
+</p>
+
 # 🍕 Data Mining Project - ABCDEats Inc. Customer Segmentation 📦
 
 ### **👥 Group 37 Members**
