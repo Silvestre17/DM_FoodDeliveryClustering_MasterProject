@@ -8,7 +8,7 @@
 
 <p align="center">
     <!-- Project Links -->
-    <a href="https://github.com/Silvestre17/DM_24.25_Project"><img src="https://img.shields.io/badge/Project_Repo-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
+    <a href="https://github.com/Silvestre17/DM_FoodDeliveryClustering_MasterProject"><img src="https://img.shields.io/badge/Project_Repo-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
     <a href="https://dm-project-abcdeats-group37.streamlit.app/"><img src="https://img.shields.io/badge/Live_Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Dashboard"></a>
     <a href="https://github.com/Silvestre17/DM_Dashboard_Group37"><img src="https://img.shields.io/badge/Dashboard_Code-100000?style=for-the-badge&logo=github&logoColor=white" alt="Dashboard Code Repo"></a>
 </p>
