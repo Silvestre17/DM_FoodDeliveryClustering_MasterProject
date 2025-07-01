@@ -4,21 +4,18 @@
     </a>
 </p>
 
-# 🍕 Data Mining Project - ABCDEats Inc. Customer Segmentation 📦
+# 🍕 ABCDEats Inc: A Data Mining Approach to Customer Segmentation 📦
 
-### **👥 Group 37 Members**
-
--   André Silvestre, 20240502
--   Filipa Pereira, 20240509
--   Umeima Mahomed, 20240543
-
----
+<p align="center">
+    <!-- Project Links -->
+    <a href="https://github.com/Silvestre17/DM_24.25_Project"><img src="https://img.shields.io/badge/Project_Repo-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo"></a>
+    <a href="https://dm-project-abcdeats-group37.streamlit.app/"><img src="https://img.shields.io/badge/Live_Dashboard-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Dashboard"></a>
+    <a href="https://github.com/Silvestre17/DM_Dashboard_Group37"><img src="https://img.shields.io/badge/Dashboard_Code-100000?style=for-the-badge&logo=github&logoColor=white" alt="Dashboard Code Repo"></a>
+</p>
 
 ## **📝 Description**
 
-This repository documents the **Data Mining** project undertaken for the Master's in Data Science and Advanced Analytics at NOVA Information Management School (NOVA IMS). The project focuses on ***ABCDEats Inc.***, a fictional food delivery service. We analyze customer data collected over 3 months from 3 cities to develop a data-driven segmentation strategy, enabling ABCDEats to tailor its marketing and services effectively.
-
-<br>
+This repository documents a comprehensive **Data Mining** project focused on ***ABCDEats Inc.***, a fictional food delivery service. We analyze a rich dataset of customer transactions and behaviors to develop a data-driven segmentation strategy. The goal is to empower ABCDEats to move beyond a one-size-fits-all approach and tailor its marketing, promotions, and service offerings to distinct customer profiles.
 
 ## **✨ Objective**
 
@@ -32,7 +29,38 @@ The primary objectives of this project are to:
 6.  Suggest actionable **Business Applications** and marketing strategies for each segment.
 7.  (Optional) Develop an interactive **Web Application** for exploring the EDA and segmentation results.
 
-<br>
+## 🎓 Project Context
+
+This project was developed for the **Data Mining** course as part of the **[Master's in Data Science and Advanced Analytics](https://www.novaims.unl.pt/en/education/programs/postgraduate-programs-and-master-degree-programs/master-degree-program-in-data-science-and-advanced-analytics-with-a-specialization-in-data-science/)** program at **NOVA IMS**. The work was completed during the **1st Semester** of the 2024/2025 academic year.
+
+
+## 🛠️ Technologies & Libraries
+
+The project was implemented entirely in **Python**, leveraging a powerful stack of libraries for data science, machine learning, and web deployment.
+
+<p align="center">
+    <a href="https://www.python.org/">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    </a>
+    <a href="https://jupyter.org/">
+        <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
+    </a>
+    <a href="https://pandas.pydata.org/">
+        <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+    </a>
+    <a href="https://numpy.org/">
+        <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+    </a>
+    <a href="https://www.Scikit-Learn.org/">
+        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+    </a>
+    <a href="https://github.com/JustGlowing/minisom"><img src="https://img.shields.io/badge/MiniSom-4CAF50?style=for-the-badge" alt="MiniSom"/></a>
+    <br>
+    <a href="https://www.streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" /></a>
+    <a href="https://www.plotly.com/"><img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" /></a>
+    <a href="https://www.matplotlib.org/"><img src="https://img.shields.io/badge/Matplotlib-D3D3D3?style=for-the-badge&logo=matplotlib&logoColor=black" alt="Matplotlib" /></a>
+    <a href="https://www.seaborn.pydata.org/"><img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" /></a>
+</p>
 
 ## **🗺️ Project Workflow (CRISP-DM)**
 
@@ -62,7 +90,7 @@ The project strictly followed the **CRISP-DM (Cross-Industry Standard Process fo
       <a href="https://www.seaborn.pydata.org/"><img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" /></a>
     </p>
 
-3.  **Data Preparation:** 🛠️
+3.  **Data Preparation & Feature Engineering 🛠️**
     *   **Cleaning:** Handled duplicates (removed 13), treated inconsistencies (removed 18 illogical rows, reinterpreted '-').
     *   **Missing Value Imputation:** Used deterministic logic (`first_order`, `HR_0`) and `KNNImputer` (`customer_age`).
     *   **Feature Engineering:** Created new features (e.g., `order_count`, `days_between_orders`, `customer_region_buckets`, `last_promo_bin`, CUI totals/averages/most spent, PCA components). Discarded less informative engineered features (e.g., CUI proportions).
@@ -76,7 +104,7 @@ The project strictly followed the **CRISP-DM (Cross-Industry Standard Process fo
       <a href="https://www.Scikit-Learn.org/"><img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" /></a>
     </p>
 
-4.  **Modeling:** 🧠
+4.  **Modeling: Multi-Perspective Clustering 🧠**
     *   Applied multiple clustering algorithms:
         *   Hierarchical Clustering (HC - Agglomerative, Ward linkage)
         *   K-Means
@@ -89,14 +117,14 @@ The project strictly followed the **CRISP-DM (Cross-Industry Standard Process fo
       <a href="https://github.com/JustGlowing/minisom"><img src="https://img.shields.io/badge/MiniSom-4CAF50?style=for-the-badge" alt="MiniSom"/></a>
     </p>
 
-5.  **Evaluation:** ✅
+5.  **Evaluation & Final Segmentation ✅**
     *   Determined optimal cluster numbers using Elbow method (Inertia/SSE), Silhouette analysis, R² metric (for HC), AIC/BIC (for GMM), and visual inspection (dendrograms).
     *   Compared performance across algorithms and perspectives based on R² and silhouette scores.
     *   Selected best-performing methods for each perspective (SOM+K-Means overall, K-Means value, SOM+K-Means behavior).
     *   Manually merged the 'Value' (k=3) and 'Behavior' (k=4) solutions based on centroid analysis to create a final, more robust 5-cluster solution.
     *   Visualized cluster separation using t-SNE and UMAP.
 
-6.  **Deployment:** 🚀
+6.  **Deployment 🚀**
     *   **Profiling:** Characterized the final 5 clusters using descriptive statistics, bar plots, and heatmaps.
     *   **Business Applications:** Defined marketing strategies tailored to each segment.
     *   **(Optional) Interactive Dashboard:** Developed a web application using Streamlit and Plotly for dynamic exploration of EDA and segmentation results. [Access the App Here!](https://dm-project-abcdeats-group37.streamlit.app/)
@@ -106,18 +134,6 @@ The project strictly followed the **CRISP-DM (Cross-Industry Standard Process fo
       <a href="https://www.streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" /></a>
       <a href="https://www.plotly.com/"><img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" /></a>
     </p>
-
-<br>
-
-## **🛠️ Libraries Used**
-
-*   **Core:** `Python`
-*   **Data Manipulation:** `pandas`, `numpy`
-*   **Visualization:** `matplotlib`, `seaborn`, `plotly`
-*   **Machine Learning:** `scikit-learn` (for preprocessing, PCA, K-Means, HC, MeanShift, DBSCAN, GMM, evaluation metrics), `MiniSom` (for SOM)
-*   **Web Application:** `streamlit`, `pandas-datareader` (potentially used within Streamlit context)
-
-<br>
 
 ## **📈 Results - Final Customer Segments**
 
@@ -132,3 +148,10 @@ Based on the merged clustering solution (Value K-Means + Behavior SOM+K-Means), 
 | **4**      | **The Late-Night Enthusiasts** | - Highest spenders (absolute & average) (4.93%).<br>- Predominantly in Region 8.<br>- Strong preference for Asian, Snack, Street Food.<br>- Orders primarily late night & early breakfast.<br>- Less preference for Italian/Other. | - Highlight breakfast & late-night specific items/offerings.<br>- Introduce city-specific promotions (Region 8).<br>- Offer special discounts/VIP access for high spenders. |
 
 <br>
+
+
+### **👥 Group 37 Members**
+
+-   André Silvestre, 20240502
+-   Filipa Pereira, 20240509
+-   Umeima Mahomed, 20240543
